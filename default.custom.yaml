@@ -1,0 +1,14 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Nov 25 11:26:14 2026"
+  rime_version: 1.13.1
+patch:
+  ascii_composer:
+    switch_key: {Shift_L: noop}
+  schema_list:
+    - {schema: double_pinyin_flypy}
+    - {schema: rime_mint}
+  switcher:
+    hotkeys: ["Control+Shift+grave", "Control+Shift+F12"]
